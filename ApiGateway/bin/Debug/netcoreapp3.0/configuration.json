@@ -1,0 +1,2772 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/BusinessArea/GetBusinessAreaAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessArea/GetBusinessAreaAll",
+      "UpstreamHttpMethod": [ "Get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessArea/GetBusinessAreaById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessArea/GetBusinessAreaById",
+      "UpstreamHttpMethod": [ "Get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessArea/CreateBusinessArea",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessArea/CreateBusinessArea",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessArea/EditBusinessArea",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessArea/EditBusinessArea",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessArea/CancelBusinessArea",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessArea/CancelBusinessArea",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessPartner/GetBusinessPartnerAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessPartner/GetBusinessPartnerAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessPartner/GetBusinessPartnerId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessPartner/GetBusinessPartnerId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessPartner/CreateBusinessPartner",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessPartner/CreateBusinessPartner",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessPartner/EditBusinessPartner",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessPartner/EditBusinessPartner",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessPartner/CancelBusinessPartner",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessPartner/CancelBusinessPartner",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessUnit/GetBusinessUnitAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessUnit/GetBusinessUnitAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessUnit/GetBusinessUnitById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessUnit/GetBusinessUnitById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessUnit/CreateBusinessUnit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessUnit/CreateBusinessUnit",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessUnit/EditBusinessUnit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessUnit/EditBusinessUnit",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessUnit/CancelBusinessUnit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessUnit/CancelBusinessUnit",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Client/GetClientAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Client/GetClientAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Client/GetClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Client/GetClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Client/CreateClient",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Client/CreateClient",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Client/EditClient",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Client/EditClient",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Client/CancelClient",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Client/CancelClient",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Country/GetCountryAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Country/GetCountryAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Country/GetCountryId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Country/GetCountryId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Country/CreateCountry",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Country/CreateCountry",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Country/EditCountry",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Country/EditCountry",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Country/CancelCountry",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Country/CancelCountry",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/DistributionChannel/GetDistributionChannelAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/DistributionChannel/GetDistributionChannelAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/DistributionChannel/GetDistributionChannelById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/DistributionChannel/GetDistributionChannelById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/DistributionChannel/CreateDistributionChannel",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/DistributionChannel/CreateDistributionChannel",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/DistributionChannel/EditDistributionChannel",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/DistributionChannel/EditDistributionChannel",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/DistributionChannel/CancelDistributionChannel",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/DistributionChannel/CancelDistributionChannel",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/District/GetDistrictAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/District/GetDistrictAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/District/GetDistrictId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/District/GetDistrictId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/District/CreateDistrict",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/District/CreateDistrict",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/District/EditDistrict",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/District/EditDistrict",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/District/CancelDistrict",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/District/CancelDistrict",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/IItemSubCategory/GetItemSubCategoryAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/IItemSubCategory/GetItemSubCategoryAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/IItemSubCategory/GetItemSubCategoryById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/IItemSubCategory/GetItemSubCategoryById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/IItemSubCategory/CreateItemSubCategory",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/IItemSubCategory/CreateItemSubCategory",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/IItemSubCategory/EditItemSubCategory",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/IItemSubCategory/EditItemSubCategory",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/IItemSubCategory/CancelItemSubCategory",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/IItemSubCategory/CancelItemSubCategory",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Item/GetIItemAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Item/GetIItemAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Item/GetIItemById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Item/GetIItemById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Item/CreateIItem",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Item/CreateIItem",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Item/EditIItem",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Item/EditIItem",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Item/CancelIItem",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Item/CancelIItem",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemAttriute/GetItemAttributeAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemAttriute/GetItemAttributeAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemAttriute/GetItemAttributeById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemAttriute/GetItemAttributeById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemAttriute/CreateItemAttribute",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemAttriute/CreateItemAttribute",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemAttriute/EditItemAttribute",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemAttriute/EditItemAttribute",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemAttriute/CancelItemAttribute",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemAttriute/CancelItemAttribute",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemCategory/GetItemCategoryAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemCategory/GetItemCategoryAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemCategory/GetItemCategoryById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemCategory/GetItemCategoryById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemCategory/CreateItemCategory",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemCategory/CreateItemCategory",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemCategory/EditItemCategory",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemCategory/EditItemCategory",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemCategory/CancelItemCategory",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemCategory/CancelItemCategory",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemMaster/GetItemMasteryAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemMaster/GetItemMasteryAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemMaster/GetItemMasterById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemMaster/GetItemMasterById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemMaster/CreateItemMaster",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemMaster/CreateItemMaster",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemMaster/EditItemMaster",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemMaster/EditItemMaster",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemMaster/CancelItemMaster",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemMaster/CancelItemMaster",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemPlantWarehouse/GetItemPlantWarehouseAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemPlantWarehouse/GetItemPlantWarehouseAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemPlantWarehouse/GetItemPlantWarehouseById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemPlantWarehouse/GetItemPlantWarehouseById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemPlantWarehouse/CreateItemPlantWarehouse",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemPlantWarehouse/CreateItemPlantWarehouse",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemPlantWarehouse/EditItemPlantWarehouse",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemPlantWarehouse/EditItemPlantWarehouse",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemPlantWarehouse/CancelItemPlantWarehouse",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemPlantWarehouse/CancelItemPlantWarehouse",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemPurchase/CreateItemPurchase",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemPurchase/CreateItemPurchase",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemPurchase/EditItemPurchase",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemPurchase/EditItemPurchase",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemPurchase/CancelItemPurchase",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemPurchase/CancelItemPurchase",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemSales/GetItemSalesAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemSales/GetItemSalesAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemSales/GetItemSalesById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemSales/GetItemSalesById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemSales/CreateItemSales",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemSales/CreateItemSales",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemSales/EditteItemSales",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemSales/EditteItemSales",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemSales/CancelteItemSales",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemSales/CancelteItemSales",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemType/GetItemTypeAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemType/GetItemTypeAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemType/GetItemTypeById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemType/GetItemTypeById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemType/GetItemTypeByBusinessid",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemType/GetItemTypeByBusinessid",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemType/CreateItemType",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemType/CreateItemType",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemType/EditItemType",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemType/EditItemType",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemType/CancelItemType",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemType/CancelItemType",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemUOMConversion/GetItemUOMConversionAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemUOMConversion/GetItemUOMConversionAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemUOMConversion/GetItemUOMConversionById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemUOMConversion/GetItemUOMConversionById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemUOMConversion/CreateItemUOMConversion",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemUOMConversion/CreateItemUOMConversion",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemUOMConversion/EditItemUOMConversion",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemUOMConversion/EditItemUOMConversion",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemUOMConversion/CancelItemUOMConversion",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemUOMConversion/CancelItemUOMConversion",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/LogTerritorySalesForceChange/GetLogTerritorySalesForceChangeAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/LogTerritorySalesForceChange/GetLogTerritorySalesForceChangeAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/LogTerritorySalesForceChange/GetLogTerritorySalesForceChangeById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/LogTerritorySalesForceChange/GetLogTerritorySalesForceChangeById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/LogTerritorySalesForceChange/CreateLogTerritorySalesForceChange",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/LogTerritorySalesForceChange/CreateLogTerritorySalesForceChange",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/LogTerritorySalesForceChange/EditLogTerritorySalesForceChange",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/LogTerritorySalesForceChange/EditLogTerritorySalesForceChange",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/LogTerritorySalesForceChange/CancelLogTerritorySalesForceChange",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/LogTerritorySalesForceChange/CancelLogTerritorySalesForceChange",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Outlet/GetOutletAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Outlet/GetOutletAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Outlet/GetOutletById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Outlet/GetOutletById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Outlet/CreateOutlet",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Outlet/CreateOutlet",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Outlet/EditOutlet",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Outlet/EditOutlet",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Outlet/CancelOutlet",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Outlet/CancelOutlet",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/OutletTerritory/GetOutletTerritoryAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/OutletTerritory/GetOutletTerritoryAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/OutletTerritory/GetOutletTerritoryById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/OutletTerritory/GetOutletTerritoryById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/OutletTerritory/CreateOutletTerritory",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/OutletTerritory/CreateOutletTerritory",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/OutletTerritory/EditOutletTerritory",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/OutletTerritory/EditOutletTerritory",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/OutletTerritory/CancelOutletTerritory",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/OutletTerritory/CancelOutletTerritory",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Plant/GetPlantAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Plant/GetPlantAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Plant/GetPlantId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Plant/GetPlantId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Plant/CreatePlant",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Plant/CreatePlant",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Plant/EditPlant",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Plant/EditPlant",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Plant/CancelPlant",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Plant/CancelPlant",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProductDivision/GetProductDivisionAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ProductDivision/GetProductDivisionAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProductDivision/GetProductDivisionById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ProductDivision/GetProductDivisionById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProductDivision/CreateProductDivision",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ProductDivision/CreateProductDivision",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProductDivision/EditProductDivision",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ProductDivision/EditProductDivision",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProductDivision/CancelProductDivision",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ProductDivision/CancelProductDivision",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesArea/GetSalesAreaAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesArea/GetSalesAreaAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesArea/GetSalesAreaById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesArea/GetSalesAreaById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesArea/CreateSalesArea",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesArea/CreateSalesArea",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesArea/EditSalesArea",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesArea/EditSalesArea",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesArea/CancelSalesArea",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesArea/CancelSalesArea",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesForceTerritory/GetSalesForceTerritoryAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesForceTerritory/GetSalesForceTerritoryAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesForceTerritory/GetSalesForceTerritoryById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesForceTerritory/GetSalesForceTerritoryById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesForceTerritory/CreateSalesForceTerritory",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesForceTerritory/CreateSalesForceTerritory",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesForceTerritory/EditSalesForceTerritory",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesForceTerritory/EditSalesForceTerritory",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesForceTerritory/CancelSalesForceTerritory",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesForceTerritory/CancelSalesForceTerritory",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesOrganization/GetSalesOrganizationAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesOrganization/GetSalesOrganizationAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesOrganization/GetSalesOrganizationById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesOrganization/GetSalesOrganizationById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesOrganization/CreateSalesOrganization",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesOrganization/CreateSalesOrganization",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesOrganization/EditSalesOrganization",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesOrganization/EditSalesOrganization",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesOrganization/CancelSalesOrganization",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesOrganization/CancelSalesOrganization",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SoldToPartnerShipToPartner/GetSoldToPartnerShipToPartnerAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SoldToPartnerShipToPartner/GetSoldToPartnerShipToPartnerAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SoldToPartnerShipToPartner/GetSoldToPartnerShipToPartnerById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SoldToPartnerShipToPartner/GetSoldToPartnerShipToPartnerById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SoldToPartnerShipToPartner/CreateSoldToPartnerShipToPartner",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SoldToPartnerShipToPartner/CreateSoldToPartnerShipToPartner",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SoldToPartnerShipToPartner/EditSoldToPartnerShipToPartner",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SoldToPartnerShipToPartner/EditSoldToPartnerShipToPartner",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SoldToPartnerShipToPartner/CancelSoldToPartnerShipToPartner",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SoldToPartnerShipToPartner/CancelSoldToPartnerShipToPartner",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Territory/GetTerritoryAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Territory/GetTerritoryAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Territory/GetTerritoryById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Territory/GetTerritoryById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Territory/CreateTerritory",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Territory/CreateTerritory",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Territory/EditTerritory",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Territory/EditTerritory",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Territory/CancelTerritory",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Territory/CancelTerritory",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/TerritoryType/GetTerritoryTypeAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/TerritoryType/GetTerritoryTypeAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/TerritoryType/GetTerritoryTypeById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/TerritoryType/GetTerritoryTypeById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/TerritoryType/CreateTerritoryType",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/TerritoryType/CreateTerritoryType",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/TerritoryType/EditTerritoryType",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/TerritoryType/EditTerritoryType",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/TerritoryType/CancelTerritoryType",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/TerritoryType/CancelTerritoryType",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/UnitOfMeasurement/GetUnitOfMeasurementAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/UnitOfMeasurement/GetUnitOfMeasurementAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/UnitOfMeasurement/GetUnitOfMeasurementById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/UnitOfMeasurement/GetUnitOfMeasurementById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/UnitOfMeasurement/CreateUnitOfMeasurement",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/UnitOfMeasurement/CreateUnitOfMeasurement",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/UnitOfMeasurement/EditUnitOfMeasurement",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/UnitOfMeasurement/EditUnitOfMeasurement",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/UnitOfMeasurement/CancelUnitOfMeasurement",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/UnitOfMeasurement/CancelUnitOfMeasurement",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetUserAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/User/GetUserAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetUserId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/User/GetUserId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/CreateUser",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/User/CreateUser",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/EditUser",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/User/EditUser",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/CancelUser",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/User/CancelUser",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Warehouse/GetWarehouseAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Warehouse/GetWarehouseAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Warehouse/GetWarehouseId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Warehouse/GetWarehouseId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 500 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Warehouse/CreateWarehouse",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Warehouse/CreateWarehouse",
+      "UpstreamHttpMethod": [ "post" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Warehouse/EditWarehouse",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Warehouse/EditWarehouse",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Warehouse/CancelWarehouse",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Warehouse/CancelWarehouse",
+      "UpstreamHttpMethod": [ "put" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemPurchase/GetItemPurchaseAll",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemPurchase/GetItemPurchaseAll",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemPurchase/GetItemPurchaseById",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemPurchase/GetItemPurchaseById",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/BusinessArea/GetBusinessAreaByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessArea/GetBusinessAreaByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessPartner/GetBusinessPartnerByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessPartner/GetBusinessPartnerByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessPartnerDistributionChannel/GetBusinessPartnerDistributionChannelByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessPartnerDistributionChannel/GetBusinessPartnerDistributionChannelByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessPartnerTerritory/GetBusinessPartnerTerritoryByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessPartnerTerritory/GetBusinessPartnerTerritoryByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessPartnerWarehousePurchase/GetBusinessPartnerWarehousePurchaseByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessPartnerWarehousePurchase/GetBusinessPartnerWarehousePurchaseByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessPartnerWarehouseSales/GetBusinessPartnerWarehouseSalesByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessPartnerWarehouseSales/GetBusinessPartnerWarehouseSalesByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/BusinessUnit/GetBusinessUnitByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/BusinessUnit/GetBusinessUnitByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Country/GetCountryByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Country/GetCountryByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/DistributionChannel/GetDistributionChannelByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/DistributionChannel/GetDistributionChannelByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/DistributionChannel/GetDistributionChannelByAreaId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/DistributionChannel/GetDistributionChannelByAreaId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/DistributionChannel/GetDistributionChannelByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/DistributionChannel/GetDistributionChannelByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/District/GetDistrictByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/District/GetDistrictByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Item/GetIItemByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Item/GetIItemByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Item/GetIItemByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Item/GetIItemByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemAttriute/GetItemAttributeByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemAttriute/GetItemAttributeByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemAttriute/GetItemAttributeByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemAttriute/GetItemAttributeByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemAttributeConfig/GetItemAttributeConfigByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemAttributeConfig/GetItemAttributeConfigByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemAttributeConfig/GetItemAttributeConfigByClient",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemAttributeConfig/GetItemAttributeConfigByClient",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemCategory/GetItemCategoryByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemCategory/GetItemCategoryByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemCategory/GetItemCategoryByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemCategory/GetItemCategoryByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemMaster/GetItemMasterByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemMaster/GetItemMasterByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemPlantWarehouse/GetItemPlantWarehouseByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemPlantWarehouse/GetItemPlantWarehouseByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemPlantWarehouse/GetItemPlantWarehouseByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemPlantWarehouse/GetItemPlantWarehouseByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemPurchase/getItemPurchasebyClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemPurchase/getItemPurchasebyClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemPurchase/getItemPurchasebybusinsessunit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemPurchase/getItemPurchasebybusinsessunit",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemSales/GetItemSalesByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemSales/GetItemSalesByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemSales/GetItemSalesByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemSales/GetItemSalesByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/IItemSubCategory/GetItemSubCategoryByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/IItemSubCategory/GetItemSubCategoryByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemType/GetItemTypeByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemType/GetItemTypeByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemType/GetItemTypeByBusinessUnitid",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemType/GetItemTypeByBusinessUnitid",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ItemUOMConversion/GetItemUOMConversionByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ItemUOMConversion/GetItemUOMConversionByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/LogTerritorySalesForceChange/GetLogTerritorySalesForceChangeByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/LogTerritorySalesForceChange/GetLogTerritorySalesForceChangeByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/LogTerritorySalesForceChange/GetLogTerritorySalesForceChangeByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/LogTerritorySalesForceChange/GetLogTerritorySalesForceChangeByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Outlet/GetOutletByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Outlet/GetOutletByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/OutletTerritory/GetOutletTerritoryByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/OutletTerritory/GetOutletTerritoryByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/OutletTerritory/GetOutletTerritoryByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/OutletTerritory/GetOutletTerritoryByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Plant/GetPlantByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Plant/GetPlantByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/PlantWarehouse/GetPlantWarehouseByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/PlantWarehouse/GetPlantWarehouseByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProductDivision/GetProductDivisionByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ProductDivision/GetProductDivisionByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProductDivision/GetProductDivisionByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ProductDivision/GetProductDivisionByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesArea/GetSalesAreaByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesArea/GetSalesAreaByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesArea/GetSalesAreaByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesArea/GetSalesAreaByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesForceTerritory/GetSalesForceTerritoryByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesForceTerritory/GetSalesForceTerritoryByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesForceTerritory/GetSalesForceTerritoryByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesForceTerritory/GetSalesForceTerritoryByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesOrganization/GetSalesOrganizationByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesOrganization/GetSalesOrganizationByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SalesOrganization/GetSalesOrganizationByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SalesOrganization/GetSalesOrganizationByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SoldToPartnerShipToPartner/GetSoldToPartnerShipToPartnerByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/SoldToPartnerShipToPartner/GetSoldToPartnerShipToPartnerByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Territory/GetTerritoryByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Territory/GetTerritoryByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Territory/GetTerritoryByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Territory/GetTerritoryByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/TerritoryType/GetTerritoryTypeByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/TerritoryType/GetTerritoryTypeByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/TerritoryType/GetTerritoryTypeByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/TerritoryType/GetTerritoryTypeByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/UnitOfMeasurement/GetUnitOfMeasurementByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/UnitOfMeasurement/GetUnitOfMeasurementByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/UnitOfMeasurement/GetUnitOfMeasurementByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/UnitOfMeasurement/GetUnitOfMeasurementByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetUserByClientId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/User/GetUserByClientId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Warehouse/GetWarehouseByUnitId",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Warehouse/GetWarehouseByUnitId",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Warehouse/GetWarehouseByClientid",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/Warehouse/GetWarehouseByClientid",
+      "UpstreamHttpMethod": [ "get" ],
+      "FileCacheOptions": { "TtlSeconds": 100 },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.10.17.24",
+          "Port": 8050
+        }
+      ]
+    }
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44375"
+  }
+}
+

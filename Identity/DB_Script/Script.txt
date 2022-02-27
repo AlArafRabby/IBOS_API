@@ -1,0 +1,1 @@
+﻿scaffold-DbContext "Data Source=172.17.17.16;Initial Catalog=DB_Security;User ID=rNwUs@Ag;Password=a2sLs@Ag;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir "Models/DB_Security" -ContextDir "DbContexts" -t TblUserToken,TblUserTokenDetalis -f

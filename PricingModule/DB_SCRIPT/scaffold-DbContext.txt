@@ -1,0 +1,1 @@
+scaffold-DbContext "Data Source=ibos.akij.net;Initial Catalog=iBOS;User ID=AkijApp;Password=appS@Connect;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir "Models/iBOS" -ContextDir "DbContexts" -t tblPriceSetup, tblTerritory  -f
